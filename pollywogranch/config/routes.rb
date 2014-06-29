@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :frogs
+
   resources :tadpoles
 
   # The priority is based upon order of creation: first created -> highest priority.
