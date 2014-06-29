@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
+
   resources :ponds
+
+  resources :frogs
 
   resources :tadpoles
 
